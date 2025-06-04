@@ -1,17 +1,36 @@
-# Machine-Learning
-Machine Learning for Business – Project Portfolio
-Welcome! 👋 This repository features a collection of hands-on machine learning projects I completed as part of my graduate coursework at Park University. Each project gave me the chance to explore real-world data challenges—ranging from public health analytics to wine quality classification—through the lens of predictive modeling and explainable AI.
+# Machine Learning for Business – Project Portfolio
 
-You'll find work that combines data analysis, model building, and interpretability, all powered by Python and open-source datasets. Whether you're here to get inspired, see how I apply machine learning in context, or explore SHAP values and neural networks in action—there's something here for you.
+Welcome! 👋  
+This repository showcases several hands-on machine learning projects completed as part of my graduate coursework at Park University. Throughout this course, I explored real-world challenges using Python, open-source datasets, and a range of machine learning techniques—including regression, model explainability, and neural networks.
 
-📁 Project Highlights
-Obesity and Physical Inactivity Regression
-I used multiple regression models—OLS, Lasso, Quantile, and Logistic—to examine how physical inactivity affects obesity rates across the U.S. This project was built on CDC health surveillance data and focused on helping public health leaders make data-informed decisions.
+Whether you're a recruiter, student, or fellow data enthusiast, feel free to explore the folders below to see how I approach problem-solving through data.
 
-Health Metrics Forecasting with SHAP and XGBoost
-This project dives into model explainability. Using Random Forest and XGBoost, I predicted health outcomes from survey data and applied SHAP and PDP to break down which features mattered most. It’s a powerful demonstration of how machine learning and transparency can work hand-in-hand.
+---
 
-Wine Quality Classification with Neural Networks
-Using a multi-layer perceptron (MLPClassifier), I built a neural network to predict whether red wine samples would be considered “good” or “not good” based on their chemical properties. This one was fun, practical, and a great exercise in scaling and performance tuning.
+## 📁 Project Highlights
 
-📍 Based in Austin, TX
+### 🔹 Obesity and Physical Inactivity: Regression Modeling
+Used Ordinary Least Squares (OLS), Lasso, Quantile, and Logistic Regression to evaluate the link between physical inactivity and obesity across U.S. states. Built on CDC health surveillance data, this project focuses on predictive modeling to support data-informed public health strategies.  
+📂 [`Obesity_Impact_Regression_Models`](./Obesity_Impact_Regression_Models)
+
+---
+
+### 🔹 Health Metrics Forecasting: SHAP & XGBoost
+Explored the interpretability of machine learning models using SHAP values and Partial Dependence Plots (PDPs). Leveraged Random Forest and XGBoost to uncover which health survey inputs most influenced predicted outcomes.  
+📂 [`Health_Outcome_Explainability_XGBoost`](./Health_Outcome_Explainability_XGBoost)
+
+---
+
+### 🔹 Wine Quality Prediction: Neural Networks
+Built a neural network using Scikit-learn’s MLPClassifier to classify red wine as “good” or “not good” based on its chemical attributes. Achieved ~86% test accuracy and included detailed visualizations like the confusion matrix and classification report.  
+📂 [`Wine_Quality_Classification_NeuralNet`](./Wine_Quality_Classification_NeuralNet)
+
+---
+
+## 🧑‍💻 About Me
+
+**Najse Foster**  
+M.S. in Information Systems and Business Analytics – Park University  
+📍 Austin, TX  
+📧 hirenajsefoster@gmail.com  
+🔗 [LinkedIn](https://linkedin.com/in/najsefoster)
